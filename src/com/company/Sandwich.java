@@ -1,8 +1,21 @@
 package com.company;
 
-public class Sandwich {
-    public static void NameandPrice(String name, int price) {
-        String reuben;
-        String bec;
+public class Sandwich implements MenuItem{
+    private double price;
+    private String name;
+
+    public Sandwich(double price, String name) {
+        this.price = price;
+        this.name = name;
+    }
+
+    public double getPrice()
+    {
+        return price;
+    }
+
+    public String getName()
+    {
+        return name;
     }
 }
