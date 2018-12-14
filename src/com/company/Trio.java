@@ -13,6 +13,7 @@ public class Trio {
      this.drink = drin;
  }
 
+    //returns the price of a trio with a discount of the cheapest item being free
     public double getPrice()
     {
         double itemOne = sandwich.getPrice();
@@ -33,6 +34,7 @@ public class Trio {
         return itemOne+itemTwo+itemThree-discount;
     }
 
+    //Strings together the name of all three trio items
     public String getName()
     {
         return sandwich.getName() +"/"+ salad.getName() +"/"+ drink.getName();

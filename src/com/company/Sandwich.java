@@ -9,11 +9,13 @@ public class Sandwich implements MenuItem{
         this.name = name;
     }
 
+    //Returns the name of a sandwich
     public double getPrice()
     {
         return price;
     }
 
+    //Returns the name of a sandwich
     public String getName()
     {
         return name;

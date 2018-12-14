@@ -9,11 +9,13 @@ public class Salad implements MenuItem{
         this.name = name;
     }
 
+    //Returns the price of a salad
     public double getPrice()
     {
         return price;
     }
 
+    //Returns the name of a salad
     public String getName()
     {
         return name;

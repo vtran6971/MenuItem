@@ -9,19 +9,15 @@ public class Drink implements MenuItem{
         this.name = name;
     }
 
+    //Returns the price of a drink
     public double getPrice()
     {
         return price;
     }
 
+    //Returns the name of a drink
     public String getName()
     {
         return name;
-    }
-
-    @Override
-    public String toString()
-    {
-        return( this.getName() );
     }
 }
